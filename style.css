@@ -1,0 +1,91 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f3f3;
+    text-align: left;
+    /* padding: 10px; */
+}
+
+
+.controls {
+    margin-bottom: 20px;
+    background-color: 	#c0efde;
+    padding: 7px;
+    width: 100%;
+}
+
+button {
+    padding: 7px 10px;
+    margin: 2px;
+    font-weight: bold;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004d40;
+}
+
+#bar-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start; /* corrected from 'left' */
+    width: 1000px;
+    height: 400px;
+    padding-left: 7px;
+    /* margin: 20px auto; */
+    /* border: 2px solid #004d40; */
+    /* background-color: #ffffff;  */    /* we can remove this */
+}
+
+.bar {
+    margin: 1px;
+    background-color: #64b5f6;
+    /* width: 16px;  for full fit screen for small it wis adjustable */
+    transition: height 0.2s ease;
+}
+
+.resize-container {
+    margin-top: 45px;
+    padding: 5px;
+    background-color: #b2dfdb;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    font-weight: bold;
+    /* border-radius: 8px; */
+    /* width: fit-content; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.resize-container input {
+    width: 70px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #004d40;
+}
+
+.visualization {
+    /* margin-top: 10px; */
+    padding: 1px;
+    padding-left: 7px;
+    background-color: #228B22;
+    color: #FFD700;
+    text-align: left;
+    /* font-size: 1.4rem; */
+    font-weight: bold;
+    width: 100%;
+    /* border-radius: 6px; */
+    /* box-shadow: 0 2px 10px rgba(0,0,0,0.2); */
+}
